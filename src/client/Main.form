@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="pokusajSlovo" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="pogodi" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblPreosPokusaji" min="-2" pref="226" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="slovo1" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="slovo2" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="slovo3" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="slovo4" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="slovo5" min="-2" pref="46" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblKoriscenaSlova" min="-2" pref="226" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="27" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="38" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="slovo1" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="slovo2" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="slovo3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="slovo4" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="slovo5" min="-2" pref="45" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="52" max="32767" attributes="0"/>
+              <Component id="lblPreosPokusaji" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblKoriscenaSlova" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pokusajSlovo" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="pogodi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="slovo1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="slovo2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="slovo3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="slovo4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="slovo5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="pokusajSlovo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPreosPokusaji">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Preostali broj pokusaja: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblKoriscenaSlova">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Koriscena slova:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="pogodi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pogodi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pogodiActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
